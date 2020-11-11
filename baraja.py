@@ -29,5 +29,5 @@ def barajar(lista_de_naipes):
         lista_de_naipes[i] = aux
     return lista_de_naipes
 
-# crear baraja, barajar y mostrar resultado por separado
-print (barajar(creaBaraja()))
+'''crear baraja, barajar y mostrar resultado por separado
+print (barajar(creaBaraja()))'''
