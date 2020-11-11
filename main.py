@@ -1,10 +1,10 @@
-import baraja
+import barajac
 
-baraja_ordenada = baraja.creaBaraja()
-print ("Esta es la primera baraja", baraja_ordenada)
+palos = ["o", "c", "e", "b"]
+numeros = ["A", "2", "3", "4", "5", "6", "7", "S", "C", "R"]
 
-baraja_barajada = baraja.creaBaraja()
-print ("Esta es la segunda baraja recien creada", baraja_barajada)
-baraja.barajar(baraja_barajada)
+miBaraja = barajac.Baraja(palos, numeros)
 
-print ("y ahora la he barajado", baraja_barajada)
+print(miBaraja.mazacote)
+miBaraja.barajar()
+print(miBaraja.mazacote)
